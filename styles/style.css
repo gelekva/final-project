@@ -1,0 +1,359 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #333;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header h1 {
+    color: #fff;
+    font-size: 36px;
+    margin-left: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 5px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+
+
+.sec {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    margin-top: 20px;
+    text-align: center;
+    padding: 20px;
+}
+.big {
+    width: 33%;
+    max-width: 300px; 
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.wha {
+    color: black;
+    font-weight: 500;
+    font-size: 18px; 
+    margin: 20px 0;
+    max-width: 80%;
+}
+
+#mindfulness-tips {
+    padding: 50px 16px;
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+
+#mindfulness-tips h2 {
+    margin-bottom: 32px;
+    font-size: 28px;
+    text-align: center;
+}
+
+.tips-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.tip-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 300px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.tip-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.tip-card h3 {
+    margin-top: 0;
+    font-size: 20px;
+}
+
+.tip-card p {
+    font-size: 16px;
+}
+
+#meditation-tutorial {
+    padding: 50px 16px;
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+
+#meditation-tutorial h2 {
+    margin-bottom: 32px;
+    font-size: 28px;
+    text-align: center;
+}
+
+.meditation-steps {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.meditation-steps img {
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.steps-content {
+    max-width: 800px;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.steps-content ol {
+    margin: 0;
+    padding-left: 20px;
+    font-size: 18px;
+}
+
+.steps-content li {
+    margin-bottom: 10px;
+}
+#testimonials {
+    padding: 50px 16px;
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    text-align: center;
+}
+
+#testimonials h2 {
+    margin-bottom: 32px;
+    font-size: 28px;
+    text-align: center;
+}
+
+.testimonial {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.testimonial p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.author {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#newsletter {
+    padding: 50px 16px;
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    text-align: center;
+}
+
+#newsletter h2 {
+    margin-bottom: 32px;
+    font-size: 28px;
+}
+
+#newsletter p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+#newsletter form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#newsletter input[type="email"] {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+#newsletter button[type="submit"] {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #000000; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#newsletter button[type="submit"]:hover {
+    background-color: #333333;
+}
+@media (max-width: 728px)
+ {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header h1 {
+        margin-bottom: 10px;
+    }
+
+    nav ul {
+        margin-top: 10px;
+    }
+
+    nav ul li {
+        margin: 5px;
+    }
+}
+    .sec {
+        flex-direction: column; /* Updated */
+    }
+
+    .big {
+        max-width: 100%;
+    }
+
+    .wha {
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 768px) {
+    header h1 {
+        font-size: 36px;
+    }
+
+    nav ul {
+        justify-content: flex-end;
+        margin-right: 10px;
+    }
+
+    .wha {
+        font-size: 23px;
+    }
+
+    #mindfulness-tips h2, #meditation-tutorial h2, #testimonials h2, #newsletter h2 {
+        font-size: 28px;
+    }
+
+    .tip-card, .steps-content, .testimonial {
+        width: calc(50)
+
+
+@media (min-width: 768px) {
+    header h1 {
+        font-size: 36px;
+    }
+
+    nav ul {
+        justify-content: flex-end;
+        margin-right: 10px;
+    }
+
+    .wha {
+        font-size: 23px;
+    }
+
+    #mindfulness-tips h2, #meditation-tutorial h2, #testimonials h2, #newsletter h2 {
+        font-size: 28px;
+    }
+
+    .tip-card, .steps-content, .testimonial {
+        width: calc(50% - 40px);
+    }
+}
+@media (min-width: 1024px) {
+    header h1 {
+        margin-left: 20px;
+    }
+
+    nav ul {
+        margin-right: 20px;
+    }
+
+    .sec {
+        flex-direction: row;
+        text-align: left;
+        margin-top: 75px;
+    }
+
+    .big {
+        max-width: 50%;
+        margin-left: 10%;
+        margin-right: 5%;
+    }
+
+    .wha {
+        font-size: 23px;
+        margin-left: 5%;
+        margin-right: 10%;
+        flex: 1;
+    }
+
+    .tip-card, .steps-content, .testimonial {
+        flex: 1 1 calc(25% - 40px);
+    }
+}
