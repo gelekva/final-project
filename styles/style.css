@@ -249,38 +249,66 @@ nav ul li a:hover {
 #newsletter button[type="submit"]:hover {
     background-color: #333333;
 }
-@media (max-width: 728px)
- {
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+@media (max-width: 728px) {
     header {
         flex-direction: column;
-        align-items: center;
+        text-align: center;
     }
 
-    header h1 {
-        margin-bottom: 10px;
+    header nav ul {
+        flex-direction: column;
+        margin-top: 10px;
     }
-
     nav ul {
+        flex-direction: column;
+        align-items: center;
         margin-top: 10px;
     }
 
     nav ul li {
-        margin: 5px;
+        margin-bottom: 10px;
     }
-}
+
     .sec {
-        flex-direction: column; /* Updated */
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .wha {
+        text-align: center;
+        margin: 20px 0;
     }
 
     .big {
         max-width: 100%;
     }
 
-    .wha {
-        max-width: 100%;
+    #mindfulness-tips, #meditation-tutorial, #testimonials, #newsletter {
+        padding: 20px 10px;
+        margin: 10px;
+    }
+
+    .tips-container, .meditation-steps {
+        flex-direction: column;
+    }
+
+    .tip-card, .steps-content, .testimonial {
+        width: 100%;
     }
 }
-
 @media (min-width: 768px) {
     header h1 {
         font-size: 36px;
