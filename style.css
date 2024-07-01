@@ -16,7 +16,7 @@ header {
 
 header h1 {
     color: #fff;
-    font-size: 36px;
+    font-size: 24px;
     margin-left: 20px;
 }
 
@@ -319,7 +319,7 @@ footer {
         width: 80%; 
     }
 }
-}
+
 @media (min-width: 768px) {
     header h1 {
         font-size: 36px;
@@ -340,7 +340,8 @@ footer {
 
     .tip-card, .steps-content, .testimonial {
         width: calc(50)
-
+    }
+}
 
 @media (min-width: 768px) {
     header h1 {
